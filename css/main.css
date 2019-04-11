@@ -1,0 +1,96 @@
+/*公共css
+1.*：的内外边距清零
+2.Body：的字体字号背景色
+3.a,a:hover, a:visited：全局链接样式
+4.Container：所有大区域宽度和居中设置
+5.lf：float居左
+6.rf：float居右
+7.clearfloat：清除float引起的父元素塌陷
+8.li：去除大圆点
+9.input,button：去除外边框
+10.i,b：分别用于sprite图和独立存在的icon图
+*/
+
+*{
+	/*所有元素内外边距清零*/
+	margin: 0;padding: 0;
+}
+body{
+	/*主体内容字体字号背景色*/
+	font-size: 12px;
+	font-family: '微软雅黑';
+	background-color: #fff;
+}
+a,a:visited{
+	/*所有超链接的样式*/
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	color: #cc0D24;
+	text-decoration: none;
+}
+input,button{
+	outline: none;
+}
+li{
+	list-style-type: none;
+}
+i{
+    background-image:url(../images/iconlist_2.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+b{
+	background-image:url(../images/ad-arraw.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+.container{
+	width: 1211px;
+	margin: 0 auto;
+}
+.lf{
+	float: left;
+}
+.rf{
+	float: right;
+}
+.clearfloat{
+	content: ''; /*激活伪类*/
+	display: block;
+	clear: both;
+}
+
+.second{
+	width: 1211px;
+	margin: 0 auto;	
+}
+.nav{
+	width: 1211px;
+	margin: 0 auto;	
+}
+.content{
+	width: 1211px;
+	margin: 0 auto;	
+}
+.main1{
+	width: 1211px;
+	margin: 0 auto;	
+}
+.main2{
+	width: 1211px;
+	margin: 0 auto;	
+}
+.main3{
+	width: 1211px;
+	margin: 0 auto;	
+}
+.footer{
+	width: 1211px;
+	margin: 0 auto;	
+}
+
+
